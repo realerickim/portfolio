@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
     .hero{
-      background-image: url('/assets/img/toronto.jpg') !important;
+      background-image: url('./assets/img/toronto.jpg') !important;
       background-position: center center;
       background-size: cover;
     }

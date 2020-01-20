@@ -43,15 +43,15 @@ export class ProjectsComponent implements OnInit {
     this.projects = [
       {name: 'WordSensei',
       caption: 'Word Sense Disambiguation algorithms using Wikipedia as a corpus.',
-      image: '/assets/img/wordsensei.png',
+      image: './assets/img/wordsensei.png',
       url: 'https://github.com/realerickim/WordSENSEI'},
       {name: 'WaveBrowser',
       caption: 'A Java-based web browser.',
-      image: '/assets/img/javabrowser.jpg',
+      image: './assets/img/javabrowser.jpg',
       url: 'https://github.com/realerickim/WaveBrowser'},
       {name: 'Eric\'s Travel Agency',
       caption: 'A vanilla HTML/CSS website.',
-      image: '/assets/img/travelagency.png',
+      image: './assets/img/travelagency.png',
       url: 'https://realerickim.github.io/travel-company/'}
     ]
   }
